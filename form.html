@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            FORM EXAMPLE
+        </title>
+    </head>
+    <body bgcolor="violet">
+    <form name="form1" action="store.html" method="post">
+
+        <p>
+            <strong>ENTER FIRST NAME</strong><input name="USERNAME">&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>ENTER LAST NAME</strong>:&nbsp;<input maxlength="40" name="SURNAME">
+        </p>
+        <p>
+            <strong> ENTER ADDRESS</strong>&nbsp;&nbsp;&nbsp;
+            <textarea name="address" rows="3"  ></textarea>
+            <br><br>
+
+            <strong>Select The Training Programs Attended :</strong>
+            <input type="checkbox" value="internet/html" name="internet/html">INTERNET/HTML
+            <input type="checkbox" value="c programming" name="c-programming">C-PROGRAMMING
+            <input type="checkbox" value="dbms-sql" name="dbms-sql">DBMS-SQL
+        </p>
+
+        <p>
+            <strong>Select The Tranning Programs Attend:</strong>
+            <input type="radio" value="science" name="s-group"> SCIENCE
+            <input type="radio" value="arts" name="arts"> ARTS
+            <input type="radio" value="commerce" name="commerce"> COMMERCE 
+            <input type="radio" value="other" name="s-group"> ENGINEERING
+        </p>
+
+        <strong> Which Tranning Program would you Like To Attend ?</strong>
+        
+        <select size="6" mulitple name="pref">
+            <option value="jh" selected> INTERNET-HTML 
+                <option value="lk" > JAVASCRIPT
+                    <option value="GH"> VB-SCRIPT 
+                        <option value="YU"> ASP
+                            <option value="UY"> XML
+                                <option value="JS"> JAVA 
+                                    <option value="ol"> .NET 
+                                        <option value="jsp">JSP
+
+            </option>
+        </select>
+        <br> <br>
+        <input type="button" value="exit" name="but">
+        <input type="submit" value="save" name="save">
+        <input type="reset" value="reset" name="reset">
+
+
+    </form>
+ </body>
+</html>
